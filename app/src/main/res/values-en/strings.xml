@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MoMo Shield</string>
+
+    <!-- Navigation -->
+    <string name="nav_analyze">Check</string>
+    <string name="nav_history">History</string>
+    <string name="nav_reported">Reported</string>
+    <string name="nav_tips">Tips</string>
+
+    <!-- Analyze screen -->
+    <string name="analyze_title">Check a message</string>
+    <string name="analyze_subtitle">Paste an SMS or WhatsApp message about Mobile Money. You can also share it directly to MoMo Shield.</string>
+    <string name="field_message">Message to check</string>
+    <string name="field_sender">Sender (optional)</string>
+    <string name="action_paste">Paste</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_analyze">Check</string>
+    <string name="privacy_note">Privacy: the analysis runs entirely on your phone. The app has no Internet access and does not read your SMS.</string>
+    <string name="disclaimer">This analysis is a decision aid, not a guarantee. When in doubt, check with your operator’s official customer service.</string>
+
+    <!-- Result -->
+    <string name="level_low_title">Low risk</string>
+    <string name="level_medium_title">Medium risk</string>
+    <string name="level_high_title">High risk</string>
+    <string name="level_low_advice">No sign of a scam detected, but stay careful: no analysis is perfect.</string>
+    <string name="level_medium_advice">This message shows suspicious signs. Do not reply, do not send money and check with an official source.</string>
+    <string name="level_high_advice">This message strongly looks like a scam. Do not click any link, do not give any code and do not send money.</string>
+    <string name="score_format">Risk score: %1$d / 100</string>
+    <string name="why_title">Why?</string>
+    <string name="no_signals">No known scam sign was found in this message.</string>
+    <string name="model_probability">Artificial intelligence analysis (TensorFlow Lite): %1$d %% scam probability.</string>
+    <string name="model_unavailable">Artificial intelligence model unavailable: rules-only analysis.</string>
+    <string name="numbers_title">Detected numbers</string>
+    <string name="action_report">Report</string>
+    <string name="already_reported">Already reported</string>
+
+    <!-- Signals -->
+    <string name="signal_reported_number_title">Already reported number</string>
+    <string name="signal_reported_number_text">A number in this message is in your list of reported numbers.</string>
+    <string name="signal_secret_code_title">Request for a secret code</string>
+    <string name="signal_secret_code_text">You are asked for your PIN, a password or a code received by SMS. An operator or a bank never asks for it.</string>
+    <string name="signal_refund_title">Refund request</string>
+    <string name="signal_refund_text">Classic sent-by-mistake scam: you are pressured to send money back. First check your balance through the official menu.</string>
+    <string name="signal_prize_title">Unexpected prize</string>
+    <string name="signal_prize_text">The message presents you as the winner of a draw or a gift you never entered.</string>
+    <string name="signal_advance_fee_title">Upfront fee</string>
+    <string name="signal_advance_fee_text">You are asked to pay to receive a prize, a loan, a parcel or a job. This is a typical sign of a scam.</string>
+    <string name="signal_account_threat_title">Threat on your account</string>
+    <string name="signal_account_threat_text">The message announces a block or a suspension to push you to act without thinking.</string>
+    <string name="signal_sender_mismatch_title">Suspicious sender</string>
+    <string name="signal_sender_mismatch_text">The message claims to come from an operator but is sent from an ordinary number.</string>
+    <string name="signal_impersonation_title">Impersonation</string>
+    <string name="signal_impersonation_text">The author pretends to be an agent, customer service or a relative.</string>
+    <string name="signal_contact_title">Asks you to contact a number</string>
+    <string name="signal_contact_text">You are asked to call, write or send money to a number.</string>
+    <string name="signal_urgency_title">Urgency pressure</string>
+    <string name="signal_urgency_text">The message tries to make you act fast, without checking.</string>
+    <string name="signal_link_title">Suspicious link</string>
+    <string name="signal_link_text">The message contains a link that does not lead to a known official site.</string>
+
+    <!-- History -->
+    <string name="history_title">History</string>
+    <string name="history_empty">No check yet. Only the first 200 characters of each message are kept, on this phone only.</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_clear_all">Clear all</string>
+    <string name="clear_all_title">Clear the history?</string>
+    <string name="clear_all_body">All saved checks will be deleted from this phone.</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Clear</string>
+
+    <!-- Reported numbers -->
+    <string name="reported_title">Reported numbers</string>
+    <string name="reported_subtitle">Add scammer numbers. MoMo Shield will warn you if they show up again in a message. The list stays on this phone.</string>
+    <string name="field_number">Number (e.g. 6 99 12 34 56)</string>
+    <string name="action_add">Add</string>
+    <string name="reported_empty">No reported number.</string>
+    <string name="report_count">Reports: %1$d</string>
+
+    <!-- Messages -->
+    <string name="msg_number_reported">Number reported.</string>
+    <string name="msg_invalid_number">Invalid Cameroonian mobile number.</string>
+    <string name="msg_empty_text">Paste a message to check first.</string>
+    <string name="msg_analysis_failed">The check failed. Please try again.</string>
+
+    <!-- Tips -->
+    <string name="tips_title">Prevention tips</string>
+    <string name="tip1_title">Never give your PIN</string>
+    <string name="tip1_body">Neither your operator nor your bank will ask for your PIN, your password or a code received by SMS, whether by message, call or WhatsApp. Not even a so-called agent.</string>
+    <string name="tip2_title">Sent by mistake: check before sending back</string>
+    <string name="tip2_body">Fake confirmation messages are common. Before sending money back, check your real balance through your operator’s official menu. For a genuine error, the operator can handle the reversal: contact its official customer service.</string>
+    <string name="tip3_title">A prize you never entered is a scam</string>
+    <string name="tip3_body">If you did not take part in any draw, you won nothing. Nobody asks you to pay to receive a real prize.</string>
+    <string name="tip4_title">Check links</string>
+    <string name="tip4_body">Beware of shortened links and names that imitate an operator (mtn-momo-gain, orange-verif…). Always use the official website or app.</string>
+    <string name="tip5_title">Urgency is a weapon</string>
+    <string name="tip5_body">Within 24 hours, or your account will be blocked: scammers rush you so you cannot think. Take the time to check.</string>
+    <string name="tip6_title">A relative with a new number</string>
+    <string name="tip6_body">If a relative writes from a new number asking for money, call their old number or another family member before sending anything.</string>
+    <string name="tip7_title">Jobs, scholarships and loans</string>
+    <string name="tip7_body">A real recruiter, scholarship or loan never asks for upfront fees through Mobile Money.</string>
+    <string name="tip8_title">If you were a victim</string>
+    <string name="tip8_body">Contact your operator’s official customer service as soon as possible to try to block the transaction, keep the evidence (screenshots, numbers), change your PIN and report the facts to the authorities.</string>
+    <string name="tip9_title">Report numbers</string>
+    <string name="tip9_body">Add scammer numbers in the Reported tab: the app will warn you if they contact you again. Share these tips with your relatives.</string>
+
+    <!-- Presets & Breakdown -->
+    <string name="preset_title">Quick examples:</string>
+    <string name="preset_scam_1">Transfer error</string>
+    <string name="preset_scam_2">MoMo prize</string>
+    <string name="preset_scam_3">PIN request</string>
+    <string name="breakdown_title">Hybrid score breakdown</string>
+    <string name="breakdown_rules">Rule Engine: %1$d / 100</string>
+    <string name="breakdown_model">AI Model (TFLite): %1$d %%</string>
+    <string name="filter_all">All</string>
+    <string name="filter_high">High</string>
+    <string name="filter_medium">Medium</string>
+    <string name="filter_low">Low</string>
+    <string name="notification_banner_title">Automatic monitoring</string>
+    <string name="notification_banner_body">Enable background analysis to be alerted instantly when receiving a suspicious SMS or message.</string>
+    <string name="notification_banner_action">Enable</string>
+    <string name="notification_active_title">Automatic monitoring active</string>
+    <string name="notification_active_body">MoMoShield securely analyzes your messages in the background.</string>
+    <string name="notification_active_action">Disable</string>
+</resources>

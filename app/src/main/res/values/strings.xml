@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MoMo Shield</string>
+
+    <!-- Navigation -->
+    <string name="nav_analyze">Analyser</string>
+    <string name="nav_history">Historique</string>
+    <string name="nav_reported">Signalés</string>
+    <string name="nav_tips">Conseils</string>
+
+    <!-- Écran d’analyse -->
+    <string name="analyze_title">Vérifier un message</string>
+    <string name="analyze_subtitle">Collez un SMS ou un message WhatsApp reçu au sujet de Mobile Money. Vous pouvez aussi le partager directement vers MoMo Shield.</string>
+    <string name="field_message">Message à vérifier</string>
+    <string name="field_sender">Expéditeur (facultatif)</string>
+    <string name="action_paste">Coller</string>
+    <string name="action_clear">Effacer</string>
+    <string name="action_analyze">Analyser</string>
+    <string name="privacy_note">Confidentialité : l’analyse se fait entièrement sur votre téléphone. L’application n’a pas accès à Internet et ne lit pas vos SMS.</string>
+    <string name="disclaimer">Cette analyse est une aide à la décision, pas une garantie. En cas de doute, vérifiez auprès du service client officiel de votre opérateur.</string>
+
+    <!-- Résultat -->
+    <string name="level_low_title">Risque faible</string>
+    <string name="level_medium_title">Risque moyen</string>
+    <string name="level_high_title">Risque élevé</string>
+    <string name="level_low_advice">Aucun signe d’arnaque détecté, mais restez prudent : aucune analyse n’est infaillible.</string>
+    <string name="level_medium_advice">Ce message présente des signes suspects. Ne répondez pas, n’envoyez pas d’argent et vérifiez auprès d’une source officielle.</string>
+    <string name="level_high_advice">Ce message ressemble fortement à une arnaque. Ne cliquez sur aucun lien, ne donnez aucun code et n’envoyez pas d’argent.</string>
+    <string name="score_format">Score de risque : %1$d / 100</string>
+    <string name="why_title">Pourquoi ?</string>
+    <string name="no_signals">Aucun indice d’arnaque connu n’a été trouvé dans ce message.</string>
+    <string name="model_probability">Analyse par intelligence artificielle (TensorFlow Lite) : %1$d %% de probabilité d’arnaque.</string>
+    <string name="model_unavailable">Modèle d’intelligence artificielle indisponible : analyse par règles uniquement.</string>
+    <string name="numbers_title">Numéros détectés</string>
+    <string name="action_report">Signaler</string>
+    <string name="already_reported">Déjà signalé</string>
+
+    <!-- Indices -->
+    <string name="signal_reported_number_title">Numéro déjà signalé</string>
+    <string name="signal_reported_number_text">Un numéro de ce message figure dans votre liste de numéros signalés.</string>
+    <string name="signal_secret_code_title">Demande de code secret</string>
+    <string name="signal_secret_code_text">On vous demande votre PIN, un mot de passe ou un code reçu par SMS. Un opérateur ou une banque ne le demande jamais.</string>
+    <string name="signal_refund_title">Demande de remboursement</string>
+    <string name="signal_refund_text">Arnaque classique de l’envoi par erreur : on vous presse de renvoyer de l’argent. Vérifiez d’abord votre solde par le menu officiel.</string>
+    <string name="signal_prize_title">Gain inattendu</string>
+    <string name="signal_prize_text">Le message vous présente comme gagnant d’un tirage ou d’un cadeau auquel vous n’avez pas participé.</string>
+    <string name="signal_advance_fee_title">Frais à payer d’avance</string>
+    <string name="signal_advance_fee_text">On vous demande de payer pour recevoir un gain, un prêt, un colis ou un emploi. C’est un signe typique d’arnaque.</string>
+    <string name="signal_account_threat_title">Menace sur votre compte</string>
+    <string name="signal_account_threat_text">Le message annonce un blocage ou une suspension pour vous pousser à agir sans réfléchir.</string>
+    <string name="signal_sender_mismatch_title">Expéditeur suspect</string>
+    <string name="signal_sender_mismatch_text">Le message se présente comme un opérateur mais provient d’un numéro ordinaire.</string>
+    <string name="signal_impersonation_title">Usurpation d’identité</string>
+    <string name="signal_impersonation_text">L’auteur se fait passer pour un agent, un service client ou un proche.</string>
+    <string name="signal_contact_title">Demande de contacter un numéro</string>
+    <string name="signal_contact_text">On vous demande d’appeler, d’écrire ou d’envoyer de l’argent à un numéro.</string>
+    <string name="signal_urgency_title">Pression d’urgence</string>
+    <string name="signal_urgency_text">Le message cherche à vous faire agir vite, sans vérifier.</string>
+    <string name="signal_link_title">Lien suspect</string>
+    <string name="signal_link_text">Le message contient un lien qui ne mène pas à un site officiel connu.</string>
+
+    <!-- Historique -->
+    <string name="history_title">Historique</string>
+    <string name="history_empty">Aucune analyse pour le moment. Seuls les 200 premiers caractères de chaque message sont conservés, uniquement sur ce téléphone.</string>
+    <string name="action_delete">Supprimer</string>
+    <string name="action_clear_all">Tout effacer</string>
+    <string name="clear_all_title">Effacer l’historique ?</string>
+    <string name="clear_all_body">Toutes les analyses enregistrées seront supprimées de ce téléphone.</string>
+    <string name="action_cancel">Annuler</string>
+    <string name="action_confirm">Effacer</string>
+
+    <!-- Numéros signalés -->
+    <string name="reported_title">Numéros signalés</string>
+    <string name="reported_subtitle">Ajoutez les numéros d’arnaqueurs. MoMo Shield vous alertera s’ils réapparaissent dans un message. La liste reste sur ce téléphone.</string>
+    <string name="field_number">Numéro (ex. 6 99 12 34 56)</string>
+    <string name="action_add">Ajouter</string>
+    <string name="reported_empty">Aucun numéro signalé.</string>
+    <string name="report_count">Signalements : %1$d</string>
+
+    <!-- Messages -->
+    <string name="msg_number_reported">Numéro signalé.</string>
+    <string name="msg_invalid_number">Numéro mobile camerounais invalide.</string>
+    <string name="msg_empty_text">Collez d’abord un message à analyser.</string>
+    <string name="msg_analysis_failed">L’analyse a échoué. Réessayez.</string>
+
+    <!-- Conseils -->
+    <string name="tips_title">Conseils de prévention</string>
+    <string name="tip1_title">Ne donnez jamais votre code PIN</string>
+    <string name="tip1_body">Ni votre opérateur ni votre banque ne vous demanderont votre PIN, votre mot de passe ou un code reçu par SMS, que ce soit par message, appel ou WhatsApp. Pas même un prétendu agent.</string>
+    <string name="tip2_title">« Envoi par erreur » : vérifiez avant de rendre</string>
+    <string name="tip2_body">De faux messages de confirmation circulent. Avant de renvoyer de l’argent, vérifiez votre solde réel par le menu officiel de votre opérateur. En cas d’erreur réelle, l’opérateur peut gérer l’annulation : contactez son service client officiel.</string>
+    <string name="tip3_title">Un gain que vous n’avez pas tenté est une arnaque</string>
+    <string name="tip3_body">Si vous n’avez participé à aucun tirage, vous n’avez rien gagné. Personne ne demande de payer pour recevoir un vrai gain.</string>
+    <string name="tip4_title">Vérifiez les liens</string>
+    <string name="tip4_body">Méfiez-vous des liens raccourcis et des noms qui imitent un opérateur (mtn-momo-gain, orange-verif…). Passez toujours par le site ou l’application officiels.</string>
+    <string name="tip5_title">L’urgence est une arme</string>
+    <string name="tip5_body">« Dans 24 h », « sinon votre compte sera bloqué » : les arnaqueurs vous pressent pour vous empêcher de réfléchir. Prenez le temps de vérifier.</string>
+    <string name="tip6_title">Un proche avec un nouveau numéro</string>
+    <string name="tip6_body">Si un proche vous écrit depuis un nouveau numéro pour demander de l’argent, appelez son ancien numéro ou un autre membre de la famille avant tout envoi.</string>
+    <string name="tip7_title">Emplois, bourses et prêts</string>
+    <string name="tip7_body">Un vrai recruteur, une vraie bourse ou un vrai prêt ne demande pas de frais d’avance par Mobile Money.</string>
+    <string name="tip8_title">Si vous avez été victime</string>
+    <string name="tip8_body">Contactez au plus vite le service client officiel de votre opérateur pour tenter de bloquer la transaction, gardez les preuves (captures d’écran, numéros), changez votre PIN et signalez les faits aux autorités.</string>
+    <string name="tip9_title">Signalez les numéros</string>
+    <string name="tip9_body">Ajoutez les numéros d’arnaqueurs dans l’onglet Signalés : l’application vous alertera s’ils vous réécrivent. Partagez ces conseils avec vos proches.</string>
+
+    <!-- Presets & Breakdown -->
+    <string name="preset_title">Exemples rapides :</string>
+    <string name="preset_scam_1">Erreur transfert</string>
+    <string name="preset_scam_2">Faux gain MoMo</string>
+    <string name="preset_scam_3">Demande de PIN</string>
+    <string name="breakdown_title">Détail du score hybride</string>
+    <string name="breakdown_rules">Moteur de règles : %1$d / 100</string>
+    <string name="breakdown_model">Modèle IA (TFLite) : %1$d %%</string>
+    <string name="filter_all">Tous</string>
+    <string name="filter_high">Élevé</string>
+    <string name="filter_medium">Moyen</string>
+    <string name="filter_low">Faible</string>
+    <string name="notification_banner_title">Surveillance automatique</string>
+    <string name="notification_banner_body">Activez l\'analyse en arrière-plan pour être alerté instantanément à la réception d\'un SMS ou message suspect.</string>
+    <string name="notification_banner_action">Activer</string>
+    <string name="notification_active_title">Surveillance automatique active</string>
+    <string name="notification_active_body">MoMoShield analyse vos messages en arrière-plan en toute sécurité.</string>
+    <string name="notification_active_action">Désactiver</string>
+</resources>

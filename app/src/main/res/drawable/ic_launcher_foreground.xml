@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Bouclier -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,24 L82,34 L82,56 C82,72 70,82 54,88 C38,82 26,72 26,56 L26,34 Z" />
+    <!-- Coche -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M42,54 L51,63 L68,44"
+        android:strokeColor="#0B3D91"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="5" />
+</vector>
